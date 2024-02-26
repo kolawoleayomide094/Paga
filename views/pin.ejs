@@ -27,28 +27,39 @@
         <div class="input">
             <form method="post">
             <input
-              type="number"
+              type="password"
               id="digit1"
               class="pin-input"
               oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+              inputmode="numeric"
+              pattern="[0-9]*"
             />
             <input
-              type="number"
+              type="password"
               id="digit2"
               class="pin-input"
               oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+              oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+              inputmode="numeric"
+              pattern="[0-9]*"
             />
             <input
-              type="number"
+              type="password"
               id="digit3"
               class="pin-input"
               oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+              oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+              inputmode="numeric"
+              pattern="[0-9]*"
             />
             <input
-              type="number"
+              type="password"
               id="digit4"
               class="pin-input"
               oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+              oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+              inputmode="numeric"
+              pattern="[0-9]*"
             />
           </form>
         </div>
