@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background: #fff;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 0 1em;
+}
+.contentSec {
+  padding: 0.89em 0 0;
+}
+.title {
+  font-size: 1.7em;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.3em;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.2em;
+  color: orange;
+}
+.text {
+  font-size: 0.98em;
+  font-weight: 500;
+}
+.input {
+  margin-top: 5em;
+}
+.formSec {
+  width: 100%;
+  height: 80dvh;
+  padding: 0.678em 0;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+input {
+  width: 44px;
+  height: 58px;
+  outline: none;
+  font-weight: 900;
+  font-size: 2em;
+  border: none;
+  border-bottom: 2px solid #000;
+}
+input:focus,
+input:focus-visible,
+input:focus-within {
+  border-bottom: 2px solid orange;
+}
+.buttonSec {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+}
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 1.3em;
+  margin-top: 1.5em;
+}
+.time p {
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #7f0b6c;
+  margin-left: 0.45em;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  min-height: 3.5rem;
+  border-radius: 2em;
+  outline: none;
+  border: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  background: orange;
+  color: #fff;
+  margin-top: 9em;
+}
