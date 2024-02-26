@@ -31,36 +31,46 @@
       </div>
       <div class="formSec">
         <div class="input">
-          <form method="post">
+        <form method="post">
             <input
               type="password"
               id="digit1"
               class="pin-input"
-              maxlength="1"
+              oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+              inputmode="numeric"
+              pattern="[0-9]*"
             />
             <input
               type="password"
               id="digit2"
               class="pin-input"
-              maxlength="1"
+              oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+              inputmode="numeric"
+              pattern="[0-9]*"
             />
             <input
               type="password"
               id="digit3"
               class="pin-input"
-              maxlength="1"
+              oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+              inputmode="numeric"
+              pattern="[0-9]*"
             />
             <input
               type="password"
               id="digit4"
               class="pin-input"
-              maxlength="1"
+              oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+              inputmode="numeric"
+              pattern="[0-9]*"
             />
             <input
               type="password"
               id="digit5"
               class="pin-input"
-              maxlength="1"
+              oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+              inputmode="numeric"
+              pattern="[0-9]*"
             />
           </form>
         </div>
